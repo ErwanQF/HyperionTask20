@@ -34,8 +34,8 @@ def populate_inbox():
     # Create 3 sample emails and add it to the Inbox list. 
 
     inbox.append(Email("sender1@example.com", "Welcome to HyperionDev!", "Hello and Welcome to this Bootcamp!"))
-    inbox.append(Email("sender2@example.com","Great work on the Bootcamp!","We noticed your good progress..."))
-    inbox.append(Email("sender3@example.com","Your excellent marks!","Our warm congraulations on your test results..."))
+    inbox.append(Email("sender2@example.com", "Great work on the Bootcamp!","We noticed your good progress..."))
+    inbox.append(Email("sender3@example.com", "Your excellent marks!","Our warm congraulations on your test results..."))
 
 def list_emails():
     
